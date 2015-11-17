@@ -1,0 +1,54 @@
+<!-- Enter your HTML code here -->
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Stock Quotes</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Stock "Quotes"</h1>
+    <div class="row requestForm">
+      <div class="col-xs-12">
+        <label for="symbol"></label>
+        <input type="text" id="symbol" value='tsn'>
+        <button class="btn" id="getQuote">Get Quote</button>
+        <div class="hud">
+          <p></p>
+        </div>
+      </div>
+    </div>
+    <div class="row content">
+      <div class="col-xs-12">
+        <table class="table">  
+          <thead>
+            <tr>
+              <th>symbol</th>
+              <th>name</th>
+              <th>last price</th>
+              <th>timestamp</th>
+            </tr>
+          </thead>
+          <tbody class="display">
+            <tr class="info" id='sample'>
+              <td class="symbol"></td>
+              <td class="name"></td>
+              <td class="price"></td>
+              <td class="time"></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+
+
+
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html>

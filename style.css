@@ -1,0 +1,20 @@
+body {
+  background-color: white
+}
+
+#sample {
+  display: none;
+}
+
+.row {
+  padding: 1em  0em;
+}
+
+.p {
+  color: #555;
+  display: none;
+}
+
+.hud {
+  height: 1.5em;
+}
